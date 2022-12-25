@@ -1,0 +1,22 @@
+#counters > button {
+    color: white;
+    background-color: rgba(10, 10, 10, 0.9);
+    border: 1px solid white;
+    border-radius: 1vw;
+    margin: 2rem;
+    font-size: 1.3rem;
+    padding: 1rem 1.5rem;
+}
+
+#counters > button:hover {
+    color: black;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    transition: ease-in-out 200ms;
+}
+
+#counters-grid {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
